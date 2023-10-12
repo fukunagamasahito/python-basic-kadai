@@ -1,13 +1,13 @@
 import random
 var = random.randint(1,100)
-if var % 3 == 0 and var % 5 != 0:
+if var % 3 == 0 and var % 5 == 0:
+  print("FizzBuzz")
+  print(var)
+elif var % 3 == 0:
   print("Fizz")
   print(var)
-elif var % 5 == 0 and var % 3 != 0:
+elif var % 5 == 0:
   print("Buzz")
-  print(var)
-elif var % 3 == 0 and var % 5 == 0:
-  print("FizzBuzz")
   print(var)
 else:
   print(var)
